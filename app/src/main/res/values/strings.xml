@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Cotinum</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_login">Login</string>
+    <string name="string_mobile_number_email">Mobile Number / Email</string>
+    <string name="string_password">Password</string>
+    <string name="string_forgot_password">Forgot Password ?</string>
+    <string name="string_create_new_account">Create new Account</string>
+    <string name="string_or">or</string>
+    <string name="string_sign_in_with_google">Sign in with Google</string>
+    <string name="string_continue_with_facebook">Continue with facebook</string>
+    <string name="string_signup">Signup</string>
+    <string name="string_confirm_password">Confirm Password</string>
+    <string name="string_back">Back</string>
+    <string name="string_enter_device_name">Enter Device Name</string>
+    <string name="string_device_name">Device Name</string>
+    <string name="string_save">Save</string>
+    <string name="string_choose_your_subscription">Choose your Subscription</string>
+    <string name="popular">Popular</string>
+    <string name="string_channels">Channels</string>
+    <string name="string_series_priority">Series priority</string>
+    <string name="string_quality">Quality</string>
+
+
+    <string name="waling_dead_desc">In the midst of the Hilltop outbreak, Henry enters the Savior pen with a machine gun and demands to know who killed his brother. The Saviors escape in the ensuing mayhem. Rick and Morgan pursue the escaped Saviors but end up getting captured. Rick asks the Saviors to join his group.</string>
+    <string name="arrow_desc">The first season of the American action television series Arrow premiered on The CW on ... Articles with short description · Use mdy dates from June 2016 · All articles with unsourced statements. Articles with unsourced statements from January </string>
+    <string name="friends_desc">People who are friends talk to each other and spend time together. They trust one another and also help each other when they are in trouble or are hurt. Friends are people that can be looked up to and trusted. </string>
+    <string name="string_cast_and_crew">Cast and Crew</string>
+    <string name="string_us_movies">US|Movies</string>
+
+    <string name="string_no_internet_connection">No Internet Connection</string>
+    <string name="string_empty_email">Email cannot be empty</string>
+    <string name="string_empty_password">Password cannot be empty</string>
+    <string name="string_password_mismatch">Password mismatch</string>
+    <string name="string_email">Email</string>
+    <string name="string_send_email">Send Email</string>
+    <string name="string_ok">Ok</string>
+    <string name="string_reset_password">Reset Password</string>
+    <string name="string_name">Name</string>
+    <string name="string_name_empty">Name cannot be empty</string>
+    <string name="string_recordings">Recordings</string>
+    <string name="string_scheduled">Scheduled</string>
+    <string name="string_priority">Series Priority</string>
+    <string name="string_history">History</string>
+    <string name="string_subtitles">Subtitles</string>
+    <string name="string_next">Next</string>
+    <string name="string_volume">Volume</string>
+    <string name="string_recording">Recording</string>
+    <string name="string_search">Search</string>
+    <string name="string_channel_list">Channel List</string>
+    <string name="string_english">English</string>
+    <string name="string_off">Off</string>
+    <string name="string_low">Low</string>
+    <string name="string_medium">Medium</string>
+    <string name="string_high">High</string>
+    <string name="string_auto">Auto</string>
+    <string name="string_record">Record</string>
+    <string name="string_cancel">Cancel</string>
+    <string name="string_start_time">Start Time:</string>
+    <string name="string_stop_time">Stop Time:</string>
+    <string name="string_keep_until">Keep Until:</string>
+    <string name="string_date">Date</string>
+    <string name="string_delete_all">Delete All</string>
+    <string name="string_record_episodes">Record Episodes:</string>
+    <string name="string_settings">Settings</string>
+    <string name="string_add_subscription">Add Subscription</string>
+    <string name="string_subscription_end">Subscription End</string>
+    <string name="string_subscription_start">Subscription Start</string>
+    <string name="string_program_name">Program Name</string>
+    <string name="string_favourites">Favourites</string>
+    <string name="string_all_channels">All Channels</string>
+    <string name="string_no_apps_available">No Apps available</string>
+    <string name="string_device_name_empty">Device name cannot be empty</string>
+</resources>

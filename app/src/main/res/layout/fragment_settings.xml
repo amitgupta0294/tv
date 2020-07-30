@@ -1,0 +1,49 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:id="@+id/view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorSettingsDarkGray"
+        app:layout_constraintBottom_toTopOf="@id/guideline_settings_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/text_settings"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="10sp"
+        style="@style/textStyle"
+        android:textSize="22sp"
+        android:text="@string/string_settings"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorSettingsDarkGray"
+        app:layout_constraintBottom_toTopOf="@id/guideline_settings_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_settings_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_settings"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:descendantFocusability="afterDescendants"
+        android:focusable="true"
+        android:layoutAnimation="@anim/layout_anim_left_slide_animation"
+        android:background="@color/colorSettingsLightGray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_settings_divider"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

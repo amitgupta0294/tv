@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+    </style>
+
+    <style name="textSizeHeading">
+        <item name="android:textSize">22sp</item>
+        <item name="fontFamily">@font/segoeui</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textStyle">
+        <item name="fontFamily">@font/segoeui</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textSizeEditTextLabel">
+        <item name="android:textSize">10sp</item>
+        <item name="fontFamily">@font/segoeui</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PopupMenu" parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@color/colorDarkGray</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="fontFamily">@font/segoeui</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:colorFocusedHighlight">@color/colorBlue</item>
+    </style>
+</resources>

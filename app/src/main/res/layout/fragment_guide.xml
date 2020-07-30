@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="com.hash.cotinum.view.fragments.SearchFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group_landing_ui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="layout_alphabets, text_popular, text_shows, recycler_channels, recycler_popular" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group_programs_ui"
+            app:constraint_referenced_ids=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/layout_alphabets"
+            layout="@layout/layout_alphabets" />
+
+        <TextView
+            android:id="@+id/text_popular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            style="@style/textStyle"
+            android:text="@string/popular"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_alphabets" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_popular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/text_popular"
+            app:layout_constraintTop_toBottomOf="@id/text_popular" />
+
+        <TextView
+            android:id="@+id/text_shows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            style="@style/textStyle"
+            android:text="@string/string_channels"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recycler_popular" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_channels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/text_shows"
+            app:layout_constraintTop_toBottomOf="@id/text_shows" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

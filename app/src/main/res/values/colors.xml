@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorDarkGray">#2E2E2E</color>
+    <color name="colorLightGray">#858585</color>
+    <color name="colorBlue">#0260FA</color>
+    <color name="colorTransparentBlue">#40369AFF</color>
+
+    <color name="facebook_blue">#4267B2</color>
+    <color name="button_color">#0090C6</color>
+    <color name="selected_background_color">#0090C6</color>
+
+
+    <color name="colorSettingsDarkGray">#3B3B3B</color>
+    <color name="colorSettingsLightGray">#4B4B4B</color>
+
+    <color name="colorMyDevicesEndColor">#0C56A2</color>
+</resources>

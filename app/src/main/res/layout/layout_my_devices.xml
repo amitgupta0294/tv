@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/setting_focused"
+    android:clipChildren="true"
+    app:cardCornerRadius="10sp"
+    android:layout_margin="10dp"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_my_devices">
+
+        <ImageView
+            android:id="@+id/image_tv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/ic_tv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            style="@style/textStyle"
+            android:text="Samsung Android TV"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/image_tv"
+            app:layout_constraintTop_toTopOf="@id/image_tv" />
+
+        <TextView
+            android:id="@+id/text_device_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            style="@style/textStyle"
+            android:text="DSJKCSDKJNC"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@id/image_tv"
+            app:layout_constraintTop_toBottomOf="@id/text_device_name" />
+
+        <LinearLayout
+            android:id="@+id/linear_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_tv">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_plan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/textStyle"
+                    android:gravity="start"
+                    android:text="1 Year PLan"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@id/image_tv"
+                    app:layout_constraintTop_toBottomOf="@id/text_device_name" />
+
+                <TextView
+                    android:id="@+id/text_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    style="@style/textStyle"
+                    android:text="$150"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@id/image_tv"
+                    app:layout_constraintTop_toBottomOf="@id/text_device_name" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/text_subscription_start"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/textStyle"
+                    android:gravity="start"
+                    android:text="@string/string_subscription_start"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@id/image_tv"
+                    app:layout_constraintTop_toBottomOf="@id/text_device_name" />
+
+                <TextView
+                    android:id="@+id/text_start_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    style="@style/textStyle"
+                    android:text="04 June 2020"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@id/image_tv"
+                    app:layout_constraintTop_toBottomOf="@id/text_device_name" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_subscription_end"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/textStyle"
+                    android:gravity="start"
+                    android:text="@string/string_subscription_end"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@id/image_tv"
+                    app:layout_constraintTop_toBottomOf="@id/text_device_name" />
+
+                <TextView
+                    android:id="@+id/text_end_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    style="@style/textStyle"
+                    android:text="04 July 2020"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@id/image_tv"
+                    app:layout_constraintTop_toBottomOf="@id/text_device_name" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorBlack"
+            style="@style/textStyle"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/string_add_subscription"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/linear_details"
+            app:layout_constraintStart_toStartOf="@id/linear_details"
+            app:layout_constraintTop_toBottomOf="@id/linear_details" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
